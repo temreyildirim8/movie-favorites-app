@@ -1,0 +1,15 @@
+.header {
+  width: 20%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    border: none;
+    border-bottom: 1px #999999 solid;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+}

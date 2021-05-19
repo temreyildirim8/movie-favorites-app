@@ -1,0 +1,25 @@
+.movie-wrapper {
+  width: 300px;
+  margin: 0 auto 20px auto;
+
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title-wrapper {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+
+    .title {
+      font-size: 12px;
+    }
+    .fav {
+      font-size: 9px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

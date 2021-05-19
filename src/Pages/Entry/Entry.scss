@@ -1,0 +1,44 @@
+
+.wrapper {
+  width: 500px;
+  margin: 10px auto;
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
+  .search-wrapper {
+    margin: 20px 0;
+    .search-input {
+      width: 100%;
+      padding: 10px;
+
+      border: 1px #777777 solid;
+      border-radius: 3px;
+    }
+    .search-button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 3px;
+
+      border: 1px #777777 solid;
+      border-radius: 3px;
+      background-color: #4b0082;
+      color: #ffffff;
+      cursor: pointer;
+      &:hover {
+        background-color: #ffffff;
+        color: #4b0082;
+      }
+    }
+  }
+  .items-wrapper {
+    margin: 10px 0;
+    overflow-y: auto;
+    span {
+      margin: 10px 0;
+
+      display: block;
+      cursor: pointer;
+    }
+  }
+}
+
